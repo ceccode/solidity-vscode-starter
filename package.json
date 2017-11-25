@@ -1,0 +1,17 @@
+{
+  "name": "solidity-vscode-starter",
+  "version": "1.0.0",
+  "description": "Solidity vscode starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "solcjs --bin --abi src/* -o dist",
+    "build-optimize": "solcjs --optimize --bin --abi src/* -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceccode/solidity-vscode-starter"
+  },
+  "author": "Francesco <falanga.fra@gmail.com>",
+  "license": "MIT"
+}
